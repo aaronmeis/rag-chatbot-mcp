@@ -13,7 +13,7 @@
 Build intelligent, context-aware chatbots that leverage your own data through natural language interactions. This platform provides 7 specialized MCP servers with 35+ tools for complete RAG pipeline orchestration.
 
 
-![Overview](./unnamed(2).png)
+![Overview](./unnamed (2).png)
 
 
 ---
