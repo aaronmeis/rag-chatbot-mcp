@@ -4,7 +4,9 @@
 > This project is currently under active development. Features, APIs, and documentation may change.
 
 This directory contains user interfaces for exercising the RAG Chatbot MCP Platform.
-![Overview](./unnamed(2).png)
+
+![Overview](./unnamed.png)
+
 ## Components
 
 ### 1. Streamlit App (`streamlit-app/`)
@@ -163,5 +165,6 @@ The pipeline flow:
 - Test various Ollama models
 - Load your own documents
 - Explore advanced retrieval techniques
+
 
 
