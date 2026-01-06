@@ -5,7 +5,7 @@
 
 This directory contains user interfaces for exercising the RAG Chatbot MCP Platform.
 
-![Overview](./unnamed.png)
+![Overview](./unnamed99.png)
 
 ## Components
 
@@ -165,6 +165,7 @@ The pipeline flow:
 - Test various Ollama models
 - Load your own documents
 - Explore advanced retrieval techniques
+
 
 
 
