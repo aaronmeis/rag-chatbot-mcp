@@ -1,0 +1,74 @@
+{
+  "mcpServers": {
+    "rag-vectorstore": {
+      "command": "python",
+      "args": ["-m", "servers.mcp-vectorstore.src.server"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "VECTORSTORE_BACKEND": "chromadb",
+        "PERSIST_DIRECTORY": "./data/indexes",
+        "LOG_LEVEL": "INFO"
+      }
+    },
+    "rag-embeddings": {
+      "command": "python",
+      "args": ["-m", "servers.mcp-embeddings.src.server"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "EMBEDDING_MODEL": "text-embedding-3-small",
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}",
+        "LOG_LEVEL": "INFO"
+      }
+    },
+    "rag-retriever": {
+      "command": "python",
+      "args": ["-m", "servers.mcp-retriever.src.server"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "RETRIEVAL_STRATEGY": "hybrid",
+        "TOP_K": "5",
+        "LOG_LEVEL": "INFO"
+      }
+    },
+    "rag-chunker": {
+      "command": "python",
+      "args": ["-m", "servers.mcp-chunker.src.server"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "CHUNK_SIZE": "512",
+        "CHUNK_OVERLAP": "50",
+        "CHUNK_STRATEGY": "recursive",
+        "LOG_LEVEL": "INFO"
+      }
+    },
+    "rag-reranker": {
+      "command": "python",
+      "args": ["-m", "servers.mcp-reranker.src.server"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "RERANK_MODEL": "cross-encoder/ms-marco-MiniLM-L-6-v2",
+        "LOG_LEVEL": "INFO"
+      }
+    },
+    "rag-generator": {
+      "command": "python",
+      "args": ["-m", "servers.mcp-generator.src.server"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "LLM_MODEL": "gpt-4",
+        "OPENAI_API_KEY": "${OPENAI_API_KEY}",
+        "PROMPT_TEMPLATE": "default",
+        "LOG_LEVEL": "INFO"
+      }
+    },
+    "rag-datasources": {
+      "command": "python",
+      "args": ["-m", "servers.mcp-datasources.src.server"],
+      "cwd": "${workspaceFolder}",
+      "env": {
+        "DATA_DIRECTORY": "./data/sample-data",
+        "LOG_LEVEL": "INFO"
+      }
+    }
+  }
+}
