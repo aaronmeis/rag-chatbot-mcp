@@ -1,0 +1,22 @@
+# Core Testing Requirements
+# Install with: pip install -r test-requirements.txt
+
+# Essential test framework
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0.0
+
+# MCP SDK (required for all servers)
+mcp>=0.1.0
+
+# Common utilities used across servers
+numpy>=1.24.0
+
+# Optional but recommended for better test output
+pytest-html>=3.1.0
+pytest-xdist>=3.0.0  # For parallel test execution
+
+# Code quality tools (optional)
+black>=23.0.0
+ruff>=0.1.0
+mypy>=1.0.0
