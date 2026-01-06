@@ -15,7 +15,6 @@ Build intelligent, context-aware chatbots that leverage your own data through na
 
 ![Overview](./unnamed.png)
 
-![Overview](./unnamed.png)
 ---
 
 ## 🚀 Quick Start
