@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+mcp_datasources.egg-info/PKG-INFO
+mcp_datasources.egg-info/SOURCES.txt
+mcp_datasources.egg-info/dependency_links.txt
+mcp_datasources.egg-info/requires.txt
+mcp_datasources.egg-info/top_level.txt
+src/__init__.py
+src/server.py
+src/tools.py
+src/utils.py
+tests/test_server.py
+tests/test_tools.py

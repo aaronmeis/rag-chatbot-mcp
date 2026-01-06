@@ -1,0 +1,13 @@
+README.md
+pyproject.toml
+mcp_chunker.egg-info/PKG-INFO
+mcp_chunker.egg-info/SOURCES.txt
+mcp_chunker.egg-info/dependency_links.txt
+mcp_chunker.egg-info/requires.txt
+mcp_chunker.egg-info/top_level.txt
+src/__init__.py
+src/server.py
+src/tools.py
+src/utils.py
+tests/test_server.py
+tests/test_tools.py

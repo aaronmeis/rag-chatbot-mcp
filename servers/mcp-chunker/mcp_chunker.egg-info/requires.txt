@@ -1,0 +1,15 @@
+mcp>=0.1.0
+
+[advanced]
+spacy>=3.5.0
+nltk>=3.8.0
+
+[all]
+mcp-chunker[advanced,dev]
+
+[dev]
+pytest>=7.0.0
+pytest-asyncio>=0.21.0
+pytest-cov>=4.0.0
+black>=23.0.0
+ruff>=0.1.0
